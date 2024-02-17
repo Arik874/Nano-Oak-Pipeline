@@ -12,7 +12,7 @@ cam.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
 xout = pipeline.createXLinkOut()
 xout.setStreamName("video")
 
-# Link the camera output to the XLinkOut
+# Link the camera output to the XLinkOuT
 cam.video.link(xout.input)
 
 # Connect to the device
